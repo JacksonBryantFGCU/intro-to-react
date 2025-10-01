@@ -1,11 +1,10 @@
-import Greeting from "./Greeting";
+import Counter from "./Counter";
 
 function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
-      <h1 className="text-3xl font-bold mb-6">Props Demo</h1>
-      <Greeting name="FGCU" />
-      <Greeting name="Computer Science and Software Engineering Club" />
+      <h1 className="text-3xl font-bold mb-6">React State Demo</h1>
+      <Counter />
     </div>
   );
 }
