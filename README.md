@@ -45,10 +45,16 @@ npm run dev
 ```
 ---
 
-To see the different git branches run these commands.
+To see the different git branches run these commands:
 ```bash
 git fetch -all
 git branch -a
+```
+---
+
+If you get a package-lock.json error run:
+```bash
+git reset --hard
 ```
 
 Then open the project in your browser at http://localhost:5173/
