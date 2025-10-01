@@ -33,3 +33,16 @@ To view a specific step in the demo, checkout the branch:
 ```bash
 git checkout step-2-props
 ```
+---
+
+## Run the Project
+
+Once you’re in the branch you want to explore:
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the project in your browser at http://localhost:5173/
+
