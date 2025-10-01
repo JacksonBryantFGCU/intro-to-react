@@ -46,3 +46,9 @@ npm run dev
 
 Then open the project in your browser at http://localhost:5173/
 
+```bash
+npm create vite@latest my-app
+cd my-app
+npm install
+npm run dev
+```
