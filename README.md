@@ -24,3 +24,12 @@ Each branch corresponds to one step in the presentation:
 git clone https://github.com/JacksonBryantFGCU/intro-to-react.git
 cd intro-to-react
 ```
+---
+
+## Switch to a branch
+
+To view a specific step in the demo, checkout the branch:
+
+```bash
+git checkout step-2-props
+```
