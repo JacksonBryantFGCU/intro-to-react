@@ -43,6 +43,13 @@ Once you’re in the branch you want to explore:
 npm install
 npm run dev
 ```
+---
+
+To see the different git branches run these commands.
+```bash
+git fetch -all
+git branch -a
+```
 
 Then open the project in your browser at http://localhost:5173/
 
