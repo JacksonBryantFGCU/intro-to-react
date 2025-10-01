@@ -11,10 +11,6 @@ function TaskApp() {
     setNewTask("");
   };
 
-  const deleteTask = (index) => {
-    setTasks(tasks.filter((_, i) => i !== index));
-  };
-
   return (
     <div className="max-w-md mx-auto p-6 bg-white shadow-md rounded-lg border border-gray-200">
       <h2 className="text-2xl font-bold mb-4">📝 Task Tracker</h2>
@@ -35,7 +31,7 @@ function TaskApp() {
         </button>
       </div>
 
-      <TaskList tasks={tasks} onDelete={deleteTask} />
+      <TaskList tasks={tasks} />
     </div>
   );
 }
