@@ -1,5 +1,5 @@
 ```bash
-git clone https://github.com/JacksonBryantFGCU/react-demo-setup.git
+git clone https://github.com/JacksonBryantFGCU/intro-to-react.git
 ```
 
 To switch branches use:
